@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
 </head>
 <body>
-    <h1>Helloa</h1>
+    <header><h1>Header</h1></header>
+    <div class="list-blog">
+        <p>Trước mắt, em được chiêm ngưỡng bức tranh thú vị về Hồ Gươm - biểu tượng của thủ đô Hà Nội. Bức tranh có lẽ vẽ cảnh bình minh lên từ từ. Nhìn ra xa, những gợn sóng nhỏ dần tan biến, để lại một tấm gương phẳng lấp lánh ánh nắng ban mai</p>
+    </div>
+    <div id="app">
+        <h1>{{ title }}</h1>
+        <a v-bind:href="url" v-bind:target="target">Day la github</a>
+    </div>
+    <footer><h1>Footer</h1></footer>
 </body>
+    <script src="main.js"></script>
 </html>
